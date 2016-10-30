@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <title>Tablify!</title>
+
+    <link rel="stylesheet" href="css/tablify.css" type="text/css"/>
+</head>
+
+<body>
+	<div id="tablify">
+		<label>Headers</label>
+		<textarea id="includes" cols="40" rows="5"></textarea>
+		<label>Function</label>
+		<textarea id="function" cols="40" rows="5">function tab (x) {
+    return Math.sin(2 * Math.PI * x);
+}</textarea>
+		<button id="tablify-go">Tablify</button>
+	</div>
+
+	<div id="output">
+		<texatarea id="output"></texatarea>
+	</div>
+
+<script type="text/javascript" src="js/tablify.js"></script>
+</body>
+</html>
